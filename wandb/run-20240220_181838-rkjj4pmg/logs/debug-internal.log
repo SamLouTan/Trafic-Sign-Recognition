@@ -1,0 +1,931 @@
+2024-02-20 18:18:38,826 INFO    StreamThr :3052 [internal.py:wandb_internal():86] W&B internal server running at pid: 3052, started at: 2024-02-20 18:18:38.825752
+2024-02-20 18:18:38,827 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status
+2024-02-20 18:18:38,834 INFO    WriterThread:3052 [datastore.py:open_for_write():85] open: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\run-rkjj4pmg.wandb
+2024-02-20 18:18:38,834 DEBUG   SenderThread:3052 [sender.py:send():369] send: header
+2024-02-20 18:18:38,836 DEBUG   SenderThread:3052 [sender.py:send():369] send: run
+2024-02-20 18:18:39,314 INFO    SenderThread:3052 [dir_watcher.py:__init__():211] watching files in: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files
+2024-02-20 18:18:39,314 INFO    SenderThread:3052 [sender.py:_start_run_threads():1100] run started: rkjj4pmg with start time 1708449518.82676
+2024-02-20 18:18:39,314 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: summary_record
+2024-02-20 18:18:39,314 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-02-20 18:18:39,315 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: check_version
+2024-02-20 18:18:39,315 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: check_version
+2024-02-20 18:18:39,388 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: run_start
+2024-02-20 18:18:39,430 DEBUG   HandlerThread:3052 [system_info.py:__init__():31] System info init
+2024-02-20 18:18:39,430 DEBUG   HandlerThread:3052 [system_info.py:__init__():46] System info init done
+2024-02-20 18:18:39,430 INFO    HandlerThread:3052 [system_monitor.py:start():181] Starting system monitor
+2024-02-20 18:18:39,430 INFO    SystemMonitor:3052 [system_monitor.py:_start():145] Starting system asset monitoring threads
+2024-02-20 18:18:39,431 INFO    HandlerThread:3052 [system_monitor.py:probe():201] Collecting system info
+2024-02-20 18:18:39,434 INFO    SystemMonitor:3052 [interfaces.py:start():190] Started cpu monitoring
+2024-02-20 18:18:39,435 INFO    SystemMonitor:3052 [interfaces.py:start():190] Started disk monitoring
+2024-02-20 18:18:39,435 INFO    SystemMonitor:3052 [interfaces.py:start():190] Started gpu monitoring
+2024-02-20 18:18:39,442 INFO    SystemMonitor:3052 [interfaces.py:start():190] Started memory monitoring
+2024-02-20 18:18:39,447 INFO    SystemMonitor:3052 [interfaces.py:start():190] Started network monitoring
+2024-02-20 18:18:39,452 DEBUG   HandlerThread:3052 [system_info.py:probe():195] Probing system
+2024-02-20 18:18:39,453 DEBUG   HandlerThread:3052 [gitlib.py:_init_repo():53] git repository is invalid
+2024-02-20 18:18:39,453 DEBUG   HandlerThread:3052 [system_info.py:probe():240] Probing system done
+2024-02-20 18:18:39,453 DEBUG   HandlerThread:3052 [system_monitor.py:probe():210] {'os': 'Windows-10-10.0.22631-SP0', 'python': '3.11.2', 'heartbeatAt': '2024-02-20T17:18:39.452970', 'startedAt': '2024-02-20T17:18:38.816611', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '<python with no main file>', 'host': 'PC-de-Tanguy', 'username': 'Dyrudis', 'executable': 'c:\\Users\\Dyrudis\\AppData\\Local\\Programs\\Python\\Python311\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 3801.0, 'min': 0.0, 'max': 3801.0}, 'cpu_freq_per_core': [{'current': 3801.0, 'min': 0.0, 'max': 3801.0}], 'disk': {'total': 930.7539215087891, 'used': 804.2549285888672}, 'gpu': 'NVIDIA GeForce RTX 3070', 'gpu_count': 1, 'gpu_devices': [{'name': 'NVIDIA GeForce RTX 3070', 'memory_total': 8589934592}], 'memory': {'total': 15.927757263183594}}
+2024-02-20 18:18:39,453 INFO    HandlerThread:3052 [system_monitor.py:probe():211] Finished collecting system info
+2024-02-20 18:18:39,453 INFO    HandlerThread:3052 [system_monitor.py:probe():214] Publishing system info
+2024-02-20 18:18:39,453 DEBUG   HandlerThread:3052 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2024-02-20 18:18:39,455 DEBUG   HandlerThread:3052 [system_info.py:_save_pip():67] Saving pip packages done
+2024-02-20 18:18:39,455 INFO    HandlerThread:3052 [system_monitor.py:probe():216] Finished publishing system info
+2024-02-20 18:18:39,466 DEBUG   SenderThread:3052 [sender.py:send():369] send: files
+2024-02-20 18:18:39,466 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file wandb-metadata.json with policy now
+2024-02-20 18:18:39,480 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:18:39,480 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:18:39,713 DEBUG   SenderThread:3052 [sender.py:send():369] send: telemetry
+2024-02-20 18:18:39,915 INFO    wandb-upload_0:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\n8dwevll-wandb-metadata.json
+2024-02-20 18:18:40,320 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\requirements.txt
+2024-02-20 18:18:40,320 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\wandb-metadata.json
+2024-02-20 18:18:40,321 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:18:40,321 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\wandb-summary.json
+2024-02-20 18:18:42,343 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:18:44,182 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:18:44,370 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:18:46,398 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:18:50,143 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:18:52,415 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:18:54,484 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:18:54,485 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:18:55,699 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:18:58,459 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:19:00,735 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:19:02,496 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:19:06,213 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:19:08,565 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:19:09,483 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:19:09,484 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:19:11,760 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:19:12,612 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\config.yaml
+2024-02-20 18:19:14,640 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:19:17,312 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:19:20,702 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:19:23,072 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:19:24,491 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:19:24,492 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:19:24,753 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:19:28,687 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:19:29,808 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:19:34,183 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:19:35,865 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:19:39,456 DEBUG   SystemMonitor:3052 [system_monitor.py:_start():159] Starting system metrics aggregation loop
+2024-02-20 18:19:39,458 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:19:39,459 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:19:39,504 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:19:39,504 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:19:41,947 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:19:44,924 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:19:45,981 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:19:50,266 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:19:52,057 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:19:54,522 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:19:54,524 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:19:55,756 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:19:58,127 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:20:01,197 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:20:04,203 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:20:06,585 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:20:08,253 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:20:09,469 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:20:09,532 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:20:09,532 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:20:11,782 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:20:14,293 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:20:17,791 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:20:20,352 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:20:23,768 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:20:24,548 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:20:24,548 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:20:26,396 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:20:29,724 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:20:32,428 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:20:34,754 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:20:36,486 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:20:39,481 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:20:39,557 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:20:39,558 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:20:39,764 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:20:42,548 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:20:44,933 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:20:48,600 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:20:50,696 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:20:54,576 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:20:54,576 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:20:54,670 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:20:55,747 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:21:00,730 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:21:01,105 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:21:06,794 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:21:06,795 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:21:09,494 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:21:09,572 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:21:09,573 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:21:10,832 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:21:12,799 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:21:15,897 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:21:18,777 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:21:21,988 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:21:24,445 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:21:24,569 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:21:24,569 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:21:28,056 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:21:29,928 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:21:32,111 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:21:35,354 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:21:38,176 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:21:39,499 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:21:39,578 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:21:39,578 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:21:40,757 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:21:44,211 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:21:46,344 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:21:50,258 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:21:51,842 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:21:54,285 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:21:54,599 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:21:54,599 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:21:56,847 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:22:00,352 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:22:02,804 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:22:06,435 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:22:08,412 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:22:09,507 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:22:09,616 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:22:09,616 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:22:12,510 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:22:13,846 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:22:16,551 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:22:19,123 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:22:22,630 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:22:24,628 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:22:24,628 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:22:24,796 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:22:28,698 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:22:30,323 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:22:34,758 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:22:35,724 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:22:38,805 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:22:39,522 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:22:39,647 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:22:39,647 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:22:40,914 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:22:44,841 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:22:46,778 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:22:49,903 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:22:52,333 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:22:54,663 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:22:54,663 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:22:55,933 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:22:57,955 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:22:59,961 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:23:01,313 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:23:01,314 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:23:01,964 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:23:03,338 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:23:05,981 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:23:08,559 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:23:09,535 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:23:09,672 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:23:09,673 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:23:10,016 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:23:12,039 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:23:13,639 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:23:16,076 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:23:18,104 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:23:18,761 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:23:22,134 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:23:24,048 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:23:24,158 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:23:24,689 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:23:24,689 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:23:28,199 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:23:29,108 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:23:30,209 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:23:34,241 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:23:34,254 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:23:36,264 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:23:39,454 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:23:39,532 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:23:39,703 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:23:39,704 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:23:40,308 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:23:42,335 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:23:44,488 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:23:46,390 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:23:49,706 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:23:50,426 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:23:51,186 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:23:51,529 DEBUG   SenderThread:3052 [sender.py:send():369] send: files
+2024-02-20 18:23:51,529 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file media\images\labels_1_48af5593372975d3b87e.jpg with policy now
+2024-02-20 18:23:51,529 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:23:51,551 DEBUG   SenderThread:3052 [sender.py:send():369] send: files
+2024-02-20 18:23:51,551 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:23:51,552 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file media\images\train_batch0_1_352799aa8a9e0b3a6978.jpg with policy now
+2024-02-20 18:23:51,572 DEBUG   SenderThread:3052 [sender.py:send():369] send: files
+2024-02-20 18:23:51,574 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:23:51,574 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file media\images\train_batch1_1_b2b7743f350622cfbad6.jpg with policy now
+2024-02-20 18:23:51,594 DEBUG   SenderThread:3052 [sender.py:send():369] send: files
+2024-02-20 18:23:51,594 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:23:51,594 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file media\images\train_batch2_1_d27f9adb509932a5dcdc.jpg with policy now
+2024-02-20 18:23:51,651 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:23:52,140 INFO    wandb-upload_0:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\mni3b36y-media/images/labels_1_48af5593372975d3b87e.jpg
+2024-02-20 18:23:52,450 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:23:52,451 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\train_batch2_1_d27f9adb509932a5dcdc.jpg
+2024-02-20 18:23:52,451 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\labels_1_48af5593372975d3b87e.jpg
+2024-02-20 18:23:52,452 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\train_batch0_1_352799aa8a9e0b3a6978.jpg
+2024-02-20 18:23:52,453 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\train_batch1_1_b2b7743f350622cfbad6.jpg
+2024-02-20 18:23:52,454 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images
+2024-02-20 18:23:52,454 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media
+2024-02-20 18:23:52,466 INFO    wandb-upload_1:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\1q9djrm9-media/images/train_batch0_1_352799aa8a9e0b3a6978.jpg
+2024-02-20 18:23:52,584 INFO    wandb-upload_2:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\ogtj1z54-media/images/train_batch1_1_b2b7743f350622cfbad6.jpg
+2024-02-20 18:23:52,714 INFO    wandb-upload_3:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\bkn8cof3-media/images/train_batch2_1_d27f9adb509932a5dcdc.jpg
+2024-02-20 18:23:53,178 INFO    wandb-upload_0:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\msr7o6iv-media/images/labels_1_48af5593372975d3b87e.jpg
+2024-02-20 18:23:53,563 INFO    wandb-upload_1:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\5futyaer-media/images/train_batch0_1_352799aa8a9e0b3a6978.jpg
+2024-02-20 18:23:53,718 INFO    wandb-upload_2:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\ofjezksk-media/images/train_batch2_1_d27f9adb509932a5dcdc.jpg
+2024-02-20 18:23:54,143 INFO    wandb-upload_3:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\3u8sy52z-media/images/train_batch1_1_b2b7743f350622cfbad6.jpg
+2024-02-20 18:23:54,477 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:23:54,709 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:23:54,710 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:23:54,859 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:23:58,510 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:24:00,178 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:24:04,594 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:24:06,094 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:24:09,537 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:24:09,718 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:24:09,718 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:24:10,681 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:24:11,943 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:24:16,763 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:24:17,295 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:24:20,833 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:24:22,654 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:24:22,859 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:24:24,712 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:24:24,712 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:24:26,911 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:24:27,984 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:24:31,975 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:24:33,422 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:24:36,021 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:24:38,654 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:24:39,547 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:24:39,718 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:24:39,719 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:24:42,062 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:24:44,526 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:24:48,104 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:24:50,181 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:24:54,143 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:24:54,720 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:24:54,720 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:24:55,953 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:25:00,229 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:25:01,244 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:25:06,304 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:25:07,084 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:25:09,548 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:25:09,732 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:25:09,732 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:25:12,386 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:25:12,994 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:25:18,476 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:25:18,991 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:25:24,546 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:25:24,732 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:25:24,734 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:25:24,734 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:25:29,909 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:25:30,629 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:25:35,788 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:25:36,685 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:25:39,559 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:25:39,747 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:25:39,748 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:25:40,931 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:25:42,746 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:25:46,668 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:25:46,762 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:25:52,543 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:25:52,797 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:25:54,761 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:25:54,762 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:25:57,543 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:25:58,837 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:26:02,581 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:26:04,896 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:26:08,503 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:26:09,571 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:26:09,757 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:26:09,758 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:26:10,948 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:26:13,958 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:26:17,009 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:26:19,224 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:26:22,060 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:26:24,766 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:26:24,767 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:26:25,001 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:26:28,131 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:26:30,072 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:26:34,200 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:26:35,961 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:26:39,579 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:26:39,765 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:26:39,765 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:26:40,282 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:26:41,028 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:26:46,338 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:26:46,776 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:26:52,398 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:26:52,695 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:26:54,765 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:26:54,765 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:26:58,458 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:26:58,502 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:27:04,261 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:27:04,544 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:27:09,593 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:27:09,595 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:27:09,780 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:27:09,780 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:27:10,623 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:27:14,890 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:27:16,701 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:27:20,741 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:27:20,755 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:27:24,778 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:27:24,779 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:27:26,495 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:27:26,810 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:27:32,389 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:27:32,880 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:27:38,182 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:27:38,907 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:27:39,595 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:27:39,782 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:27:39,782 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:27:44,166 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:27:44,953 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:27:49,217 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:27:51,011 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:27:54,315 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:27:54,813 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:27:54,814 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:27:56,080 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:28:00,064 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:28:02,154 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:28:05,706 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:28:08,231 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:28:09,597 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:28:09,830 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:28:09,831 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:28:11,060 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:28:12,281 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:28:16,751 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:28:18,324 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:28:19,527 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:28:19,529 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:28:19,529 DEBUG   SenderThread:3052 [sender.py:send():369] send: history
+2024-02-20 18:28:19,529 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: summary_record
+2024-02-20 18:28:19,530 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-02-20 18:28:20,339 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:28:20,341 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\wandb-summary.json
+2024-02-20 18:28:22,556 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:28:24,386 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:28:24,839 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:28:24,840 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:28:28,039 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:28:28,448 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:28:30,476 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:28:33,622 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:28:34,526 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:28:36,554 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:28:38,965 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:28:39,603 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:28:39,850 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:28:39,851 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:28:40,599 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:28:44,528 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:28:44,637 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:28:46,656 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:28:49,987 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:28:50,706 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:28:54,743 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:28:54,864 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:28:54,865 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:28:55,037 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:28:56,767 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:29:00,792 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:29:00,995 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:29:04,820 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:29:06,176 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:29:06,837 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:29:09,616 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:29:09,882 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:29:09,883 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:29:10,870 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:29:11,423 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:29:11,426 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:29:12,895 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:29:16,465 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:29:18,952 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:29:21,958 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:29:24,890 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:29:24,890 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:29:25,031 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:29:27,106 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:29:31,094 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:29:32,618 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:29:36,157 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:29:38,349 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:29:39,625 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:29:39,892 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:29:39,893 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:29:42,235 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:29:44,132 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:29:46,280 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:29:49,528 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:29:52,344 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:29:54,918 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:29:54,919 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:29:55,157 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:29:58,412 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:30:00,544 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:30:02,428 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:30:06,043 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:30:08,482 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:30:09,628 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:30:09,911 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:30:09,912 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:30:11,118 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:30:14,517 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:30:16,372 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:30:20,567 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:30:21,902 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:30:24,922 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:30:24,922 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:30:26,615 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:30:27,164 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:30:32,684 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:30:32,740 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:30:38,049 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:30:38,726 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:30:39,632 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:30:39,927 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:30:39,928 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:30:43,999 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:30:44,797 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:30:49,636 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:30:50,865 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:30:54,946 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:30:54,947 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:30:55,112 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:30:56,939 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:31:00,945 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:31:00,995 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:31:06,385 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:31:07,071 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:31:09,646 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:31:09,953 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:31:09,953 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:31:11,796 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:31:13,129 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:31:17,353 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:31:19,198 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:31:22,213 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:31:22,790 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:31:24,957 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:31:24,958 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:31:28,279 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:31:28,448 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:31:34,106 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:31:34,356 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:31:39,558 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:31:39,652 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:31:39,962 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:31:39,964 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:31:40,432 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:31:44,504 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:31:44,980 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:31:50,472 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:31:50,568 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:31:54,970 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:31:54,971 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:31:56,216 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:31:56,638 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:32:01,818 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:32:02,697 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:32:07,472 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:32:08,752 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:32:09,655 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:32:09,985 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:32:09,985 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:32:12,798 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:32:12,968 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:32:18,350 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:32:18,883 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:32:23,601 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:32:24,958 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:32:24,988 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:32:24,988 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:32:28,858 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:32:29,016 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:32:34,428 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:32:35,072 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:32:39,663 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:32:39,666 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:32:39,990 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:32:39,991 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:32:41,148 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:32:45,516 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:32:47,218 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:32:50,956 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:32:52,283 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:32:54,993 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:32:54,994 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:32:56,296 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:32:56,326 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:33:01,776 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:33:02,346 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:33:07,101 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:33:08,403 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:33:09,677 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:33:10,007 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:33:10,008 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:33:12,428 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:33:12,432 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:33:17,818 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:33:18,490 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:33:23,174 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:33:24,521 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:33:25,021 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:33:25,022 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:33:28,818 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:33:29,626 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:33:29,627 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:33:29,627 DEBUG   SenderThread:3052 [sender.py:send():369] send: history
+2024-02-20 18:33:29,629 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: summary_record
+2024-02-20 18:33:29,629 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-02-20 18:33:30,617 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:33:30,618 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\wandb-summary.json
+2024-02-20 18:33:34,670 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:33:34,715 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:33:36,701 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:33:39,689 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:33:40,043 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:33:40,044 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:33:40,263 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:33:40,736 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:33:42,750 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:33:45,825 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:33:46,792 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:33:50,829 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:33:50,880 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:33:52,853 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:33:55,054 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:33:55,056 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:33:56,239 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:33:56,893 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:33:58,922 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:02,176 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:34:02,973 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:04,987 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:07,726 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:34:09,013 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:09,696 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:34:10,067 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:34:10,068 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:34:11,038 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:12,772 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:34:15,091 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:17,118 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:17,771 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:34:19,189 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:34:20,151 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:21,166 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:22,177 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:22,955 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:34:23,189 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:25,086 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:34:25,087 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:34:25,226 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:28,212 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:34:29,275 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:31,298 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:33,323 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:33,724 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:34:36,358 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:38,385 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:39,320 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:34:39,711 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:34:40,086 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:34:40,086 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:34:42,426 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:44,442 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:44,846 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:34:46,471 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:50,156 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:34:50,503 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:52,514 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:54,543 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:34:55,089 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: stop_status
+2024-02-20 18:34:55,090 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: stop_status
+2024-02-20 18:34:55,236 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:34:58,596 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:35:00,619 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:35:00,844 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:35:02,647 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:35:04,665 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:35:05,880 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:35:05,888 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:35:05,915 DEBUG   SenderThread:3052 [sender.py:send():369] send: files
+2024-02-20 18:35:05,915 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:35:05,915 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file media\images\val_batch0_labels_3_89f4f8c02ee0849076a4.jpg with policy now
+2024-02-20 18:35:05,935 DEBUG   SenderThread:3052 [sender.py:send():369] send: files
+2024-02-20 18:35:05,935 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file media\images\val_batch0_pred_3_35b9b9e5c03a9cf62b9d.jpg with policy now
+2024-02-20 18:35:05,936 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:35:05,959 DEBUG   SenderThread:3052 [sender.py:send():369] send: files
+2024-02-20 18:35:05,959 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file media\images\val_batch1_labels_3_015bef7904294babd6a7.jpg with policy now
+2024-02-20 18:35:05,959 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:35:05,983 DEBUG   SenderThread:3052 [sender.py:send():369] send: files
+2024-02-20 18:35:05,983 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file media\images\val_batch1_pred_3_77e78f29e5bc154ff8ef.jpg with policy now
+2024-02-20 18:35:05,984 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:35:06,006 DEBUG   SenderThread:3052 [sender.py:send():369] send: files
+2024-02-20 18:35:06,006 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:35:06,006 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file media\images\val_batch2_labels_3_140b18616e9cf285df6c.jpg with policy now
+2024-02-20 18:35:06,026 DEBUG   SenderThread:3052 [sender.py:send():369] send: files
+2024-02-20 18:35:06,026 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:35:06,026 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file media\images\val_batch2_pred_3_00858d47bfb4cfb013d9.jpg with policy now
+2024-02-20 18:35:06,079 DEBUG   SenderThread:3052 [sender.py:send():369] send: files
+2024-02-20 18:35:06,079 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:35:06,079 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file media\images\PR_curve_3_68a3eb7d875a6d0d4654.png with policy now
+2024-02-20 18:35:06,127 DEBUG   SenderThread:3052 [sender.py:send():369] send: files
+2024-02-20 18:35:06,127 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:35:06,127 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file media\images\F1_curve_3_1903b5794720ac12ff0d.png with policy now
+2024-02-20 18:35:06,174 DEBUG   SenderThread:3052 [sender.py:send():369] send: files
+2024-02-20 18:35:06,174 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file media\images\P_curve_3_44c1fb325322b8fa03e1.png with policy now
+2024-02-20 18:35:06,174 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:35:06,219 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:35:06,220 DEBUG   SenderThread:3052 [sender.py:send():369] send: files
+2024-02-20 18:35:06,220 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file media\images\R_curve_3_c47bef05e61b71230e56.png with policy now
+2024-02-20 18:35:06,301 DEBUG   SenderThread:3052 [sender.py:send():369] send: files
+2024-02-20 18:35:06,301 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file media\images\confusion_matrix_normalized_3_a1784600204d3766443f.png with policy now
+2024-02-20 18:35:06,301 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:35:06,383 DEBUG   SenderThread:3052 [sender.py:send():369] send: files
+2024-02-20 18:35:06,383 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file media\images\confusion_matrix_3_dcffd147aa7f3e463d50.png with policy now
+2024-02-20 18:35:06,383 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:35:06,684 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:35:06,684 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\R_curve_3_c47bef05e61b71230e56.png
+2024-02-20 18:35:06,684 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\val_batch1_labels_3_015bef7904294babd6a7.jpg
+2024-02-20 18:35:06,685 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\F1_curve_3_1903b5794720ac12ff0d.png
+2024-02-20 18:35:06,685 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\val_batch2_labels_3_140b18616e9cf285df6c.jpg
+2024-02-20 18:35:06,686 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\val_batch2_pred_3_00858d47bfb4cfb013d9.jpg
+2024-02-20 18:35:06,686 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\val_batch0_labels_3_89f4f8c02ee0849076a4.jpg
+2024-02-20 18:35:06,687 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\val_batch0_pred_3_35b9b9e5c03a9cf62b9d.jpg
+2024-02-20 18:35:06,687 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\PR_curve_3_68a3eb7d875a6d0d4654.png
+2024-02-20 18:35:06,687 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\val_batch1_pred_3_77e78f29e5bc154ff8ef.jpg
+2024-02-20 18:35:06,688 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\confusion_matrix_normalized_3_a1784600204d3766443f.png
+2024-02-20 18:35:06,689 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\P_curve_3_44c1fb325322b8fa03e1.png
+2024-02-20 18:35:06,689 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\confusion_matrix_3_dcffd147aa7f3e463d50.png
+2024-02-20 18:35:06,690 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images
+2024-02-20 18:35:06,816 INFO    wandb-upload_0:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\i05tkbf0-media/images/val_batch0_labels_3_89f4f8c02ee0849076a4.jpg
+2024-02-20 18:35:06,844 INFO    wandb-upload_6:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\08wncvnb-media/images/PR_curve_3_68a3eb7d875a6d0d4654.png
+2024-02-20 18:35:06,859 INFO    wandb-upload_2:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\8z2t0da8-media/images/val_batch0_pred_3_35b9b9e5c03a9cf62b9d.jpg
+2024-02-20 18:35:06,889 INFO    wandb-upload_1:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\r2b7mypf-media/images/val_batch1_labels_3_015bef7904294babd6a7.jpg
+2024-02-20 18:35:06,892 INFO    wandb-upload_4:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\9dy8voaw-media/images/val_batch2_labels_3_140b18616e9cf285df6c.jpg
+2024-02-20 18:35:06,928 INFO    wandb-upload_5:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\dul3j6ec-media/images/val_batch2_pred_3_00858d47bfb4cfb013d9.jpg
+2024-02-20 18:35:06,939 INFO    wandb-upload_8:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\f64mmycf-media/images/P_curve_3_44c1fb325322b8fa03e1.png
+2024-02-20 18:35:06,957 INFO    wandb-upload_10:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\f0xc1k96-media/images/confusion_matrix_normalized_3_a1784600204d3766443f.png
+2024-02-20 18:35:07,011 INFO    wandb-upload_3:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\qd2bndh9-media/images/val_batch1_pred_3_77e78f29e5bc154ff8ef.jpg
+2024-02-20 18:35:07,024 INFO    wandb-upload_7:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\ttmco94m-media/images/F1_curve_3_1903b5794720ac12ff0d.png
+2024-02-20 18:35:07,078 INFO    wandb-upload_9:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\yirwcai2-media/images/R_curve_3_c47bef05e61b71230e56.png
+2024-02-20 18:35:07,116 INFO    wandb-upload_11:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\mjs10avu-media/images/confusion_matrix_3_dcffd147aa7f3e463d50.png
+2024-02-20 18:35:07,628 DEBUG   SenderThread:3052 [sender.py:send():369] send: files
+2024-02-20 18:35:07,628 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:35:07,628 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file media\images\results_3_53e90f849e284322d7ee.png with policy now
+2024-02-20 18:35:07,694 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\results_3_53e90f849e284322d7ee.png
+2024-02-20 18:35:07,694 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images
+2024-02-20 18:35:07,703 INFO    wandb-upload_4:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\uxgloooe-media/images/PR_curve_3_68a3eb7d875a6d0d4654.png
+2024-02-20 18:35:07,729 INFO    wandb-upload_1:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\v9nnxci9-media/images/confusion_matrix_normalized_3_a1784600204d3766443f.png
+2024-02-20 18:35:07,803 INFO    wandb-upload_8:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\afbtg9jq-media/images/confusion_matrix_3_dcffd147aa7f3e463d50.png
+2024-02-20 18:35:07,807 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: log_artifact
+2024-02-20 18:35:07,808 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: log_artifact
+2024-02-20 18:35:07,851 INFO    wandb-upload_2:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\29ydd9wp-media/images/val_batch0_pred_3_35b9b9e5c03a9cf62b9d.jpg
+2024-02-20 18:35:07,852 INFO    wandb-upload_5:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\kkiu5vqr-media/images/P_curve_3_44c1fb325322b8fa03e1.png
+2024-02-20 18:35:07,852 INFO    wandb-upload_0:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\zea81ym3-media/images/val_batch0_labels_3_89f4f8c02ee0849076a4.jpg
+2024-02-20 18:35:08,036 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: log_artifact
+2024-02-20 18:35:08,042 INFO    wandb-upload_6:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\4ybshny9-media/images/val_batch1_pred_3_77e78f29e5bc154ff8ef.jpg
+2024-02-20 18:35:08,057 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:35:08,294 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: log_artifact
+2024-02-20 18:35:08,314 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:35:08,442 INFO    wandb-upload_10:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\jpgclrq3-media/images/results_3_53e90f849e284322d7ee.png
+2024-02-20 18:35:08,525 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: log_artifact
+2024-02-20 18:35:08,546 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:35:08,571 INFO    wandb-upload_3:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\a8cnmj2w-media/images/R_curve_3_c47bef05e61b71230e56.png
+2024-02-20 18:35:08,664 INFO    wandb-upload_4:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\a1ai10a8-media/images/F1_curve_3_1903b5794720ac12ff0d.png
+2024-02-20 18:35:08,681 INFO    wandb-upload_7:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\6dv71eiu-media/images/val_batch1_labels_3_015bef7904294babd6a7.jpg
+2024-02-20 18:35:08,705 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:35:08,705 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\table\curves\F1-Confidence(B)_table_3_65d3344758378092a2f6.table.json
+2024-02-20 18:35:08,706 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\table\curves\Precision-Confidence(B)_table_3_6c2a8a584a0170eaf317.table.json
+2024-02-20 18:35:08,706 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\table\curves\Precision-Recall(B)_table_3_e715b18243914f663414.table.json
+2024-02-20 18:35:08,707 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media
+2024-02-20 18:35:08,707 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\table
+2024-02-20 18:35:08,707 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\table\curves
+2024-02-20 18:35:08,756 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: log_artifact
+2024-02-20 18:35:08,770 INFO    wandb-upload_1:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\pp7ej709-media/images/val_batch2_labels_3_140b18616e9cf285df6c.jpg
+2024-02-20 18:35:08,776 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: partial_history
+2024-02-20 18:35:08,794 INFO    wandb-upload_0:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\zjyva2yv-media/images/val_batch2_pred_3_00858d47bfb4cfb013d9.jpg
+2024-02-20 18:35:09,088 INFO    wandb-upload_2:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\ifmqypln-media/table/curves/Precision-Recall(B)_table_3_e715b18243914f663414.table.json
+2024-02-20 18:35:09,138 INFO    wandb-upload_10:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\5hkzv666-media/table/curves/Precision-Confidence(B)_table_3_6c2a8a584a0170eaf317.table.json
+2024-02-20 18:35:09,163 INFO    wandb-upload_9:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\pz5bhmf1-media/table/curves/F1-Confidence(B)_table_3_65d3344758378092a2f6.table.json
+2024-02-20 18:35:09,343 INFO    wandb-upload_8:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\dabog6cq-media/images/results_3_53e90f849e284322d7ee.png
+2024-02-20 18:35:09,715 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_created():272] file/dir created: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\table\curves\Recall-Confidence(B)_table_3_322d371ce8a5c8ff24f8.table.json
+2024-02-20 18:35:09,716 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\table\curves
+2024-02-20 18:35:09,790 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: poll_exit
+2024-02-20 18:35:10,134 INFO    wandb-upload_5:3052 [upload_job.py:push():91] Uploaded file C:\Users\Dyrudis\AppData\Local\wandb\wandb\artifacts\staging\tmp50uv7guk
+2024-02-20 18:35:10,138 INFO    wandb-upload_4:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\3d88mmvp-media/table/curves/Recall-Confidence(B)_table_3_322d371ce8a5c8ff24f8.table.json
+2024-02-20 18:35:10,804 INFO    SenderThread:3052 [sender.py:send_request_log_artifact():1414] logged artifact run_rkjj4pmg_model - {'id': 'QXJ0aWZhY3Q6NzI3MDUxNDIy', 'digest': 'f0ea0229c9a015924cc422d6cb8f8f56', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MTUyMzcyMQ==', 'latestArtifact': None}, 'version': 'latest'}
+2024-02-20 18:35:10,804 DEBUG   SenderThread:3052 [sender.py:send():369] send: config
+2024-02-20 18:35:10,804 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: log_artifact
+2024-02-20 18:35:11,824 INFO    wandb-upload_6:3052 [upload_job.py:push():91] Uploaded file C:\Users\Dyrudis\AppData\Local\wandb\wandb\artifacts\staging\tmpqjdcjj11
+2024-02-20 18:35:12,458 INFO    SenderThread:3052 [sender.py:send_request_log_artifact():1414] logged artifact run-rkjj4pmg-curvesPrecisionRecallB_table - {'id': 'QXJ0aWZhY3Q6NzI3MDUxNDUw', 'digest': '1c99160edbb467a5c820b56b952b7d95', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MTUyMzczMg==', 'latestArtifact': None}, 'version': 'latest'}
+2024-02-20 18:35:12,458 DEBUG   SenderThread:3052 [sender.py:send():369] send: files
+2024-02-20 18:35:12,458 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file media\table\curves/Precision-Recall(B)_table_3_e715b18243914f663414.table.json with policy now
+2024-02-20 18:35:12,458 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:35:12,459 DEBUG   SenderThread:3052 [sender.py:send():369] send: config
+2024-02-20 18:35:12,459 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: log_artifact
+2024-02-20 18:35:12,943 INFO    wandb-upload_3:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\p09s3wpr-media/table/curves/Precision-Recall(B)_table_3_e715b18243914f663414.table.json
+2024-02-20 18:35:14,840 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-20 18:35:15,998 INFO    wandb-upload_0:3052 [upload_job.py:push():91] Uploaded file C:\Users\Dyrudis\AppData\Local\wandb\wandb\artifacts\staging\tmph5v2fzv3
+2024-02-20 18:35:16,910 INFO    SenderThread:3052 [sender.py:send_request_log_artifact():1414] logged artifact run-rkjj4pmg-curvesF1ConfidenceB_table - {'id': 'QXJ0aWZhY3Q6NzI3MDUxNDc3', 'digest': '48ae552389a5c5dffa7b3f644bc4ddb3', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MTUyMzc0MQ==', 'latestArtifact': None}, 'version': 'latest'}
+2024-02-20 18:35:16,910 DEBUG   SenderThread:3052 [sender.py:send():369] send: files
+2024-02-20 18:35:16,910 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file media\table\curves/F1-Confidence(B)_table_3_65d3344758378092a2f6.table.json with policy now
+2024-02-20 18:35:16,910 DEBUG   SenderThread:3052 [sender.py:send():369] send: config
+2024-02-20 18:35:16,910 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: log_artifact
+2024-02-20 18:35:17,418 INFO    wandb-upload_10:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\jow0bf8c-media/table/curves/F1-Confidence(B)_table_3_65d3344758378092a2f6.table.json
+2024-02-20 18:35:17,896 INFO    wandb-upload_8:3052 [upload_job.py:push():91] Uploaded file C:\Users\Dyrudis\AppData\Local\wandb\wandb\artifacts\staging\tmpbsc4ehxg
+2024-02-20 18:35:18,578 INFO    SenderThread:3052 [sender.py:send_request_log_artifact():1414] logged artifact run-rkjj4pmg-curvesPrecisionConfidenceB_table - {'id': 'QXJ0aWZhY3Q6NzI3MDUxNTIw', 'digest': '0b441502c2d23458c484f0f1167510a7', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MTUyMzc1Mg==', 'latestArtifact': None}, 'version': 'latest'}
+2024-02-20 18:35:18,578 DEBUG   SenderThread:3052 [sender.py:send():369] send: files
+2024-02-20 18:35:18,578 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:35:18,578 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file media\table\curves/Precision-Confidence(B)_table_3_6c2a8a584a0170eaf317.table.json with policy now
+2024-02-20 18:35:18,579 DEBUG   SenderThread:3052 [sender.py:send():369] send: config
+2024-02-20 18:35:18,579 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: log_artifact
+2024-02-20 18:35:19,034 INFO    wandb-upload_5:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\iev2hrr2-media/table/curves/Precision-Confidence(B)_table_3_6c2a8a584a0170eaf317.table.json
+2024-02-20 18:35:19,594 INFO    wandb-upload_11:3052 [upload_job.py:push():91] Uploaded file C:\Users\Dyrudis\AppData\Local\wandb\wandb\artifacts\staging\tmpemzdnqrg
+2024-02-20 18:35:19,906 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: keepalive
+2024-02-20 18:35:20,266 INFO    SenderThread:3052 [sender.py:send_request_log_artifact():1414] logged artifact run-rkjj4pmg-curvesRecallConfidenceB_table - {'id': 'QXJ0aWZhY3Q6NzI3MDUxNTQx', 'digest': 'e20f30de602c7c984e699e40321afe50', 'state': 'PENDING', 'aliases': [], 'artifactSequence': {'id': 'QXJ0aWZhY3RDb2xsZWN0aW9uOjE0MTUyMzc1OQ==', 'latestArtifact': None}, 'version': 'latest'}
+2024-02-20 18:35:20,267 DEBUG   SenderThread:3052 [sender.py:send():369] send: files
+2024-02-20 18:35:20,267 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file media\table\curves/Recall-Confidence(B)_table_3_322d371ce8a5c8ff24f8.table.json with policy now
+2024-02-20 18:35:20,267 DEBUG   SenderThread:3052 [sender.py:send():369] send: telemetry
+2024-02-20 18:35:20,267 DEBUG   SenderThread:3052 [sender.py:send():369] send: exit
+2024-02-20 18:35:20,267 INFO    SenderThread:3052 [sender.py:send_exit():574] handling exit code: 0
+2024-02-20 18:35:20,268 INFO    SenderThread:3052 [sender.py:send_exit():576] handling runtime: 989
+2024-02-20 18:35:20,268 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-02-20 18:35:20,269 INFO    SenderThread:3052 [sender.py:send_exit():582] send defer
+2024-02-20 18:35:20,269 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:35:20,269 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: poll_exit
+2024-02-20 18:35:20,269 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: defer
+2024-02-20 18:35:20,269 INFO    HandlerThread:3052 [handler.py:handle_request_defer():170] handle defer: 0
+2024-02-20 18:35:20,269 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: defer
+2024-02-20 18:35:20,269 INFO    SenderThread:3052 [sender.py:send_request_defer():598] handle sender defer: 0
+2024-02-20 18:35:20,270 INFO    SenderThread:3052 [sender.py:transition_state():602] send defer: 1
+2024-02-20 18:35:20,270 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: defer
+2024-02-20 18:35:20,270 INFO    HandlerThread:3052 [handler.py:handle_request_defer():170] handle defer: 1
+2024-02-20 18:35:20,270 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: defer
+2024-02-20 18:35:20,270 INFO    SenderThread:3052 [sender.py:send_request_defer():598] handle sender defer: 1
+2024-02-20 18:35:20,271 INFO    SenderThread:3052 [sender.py:transition_state():602] send defer: 2
+2024-02-20 18:35:20,272 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: defer
+2024-02-20 18:35:20,272 INFO    HandlerThread:3052 [handler.py:handle_request_defer():170] handle defer: 2
+2024-02-20 18:35:20,272 INFO    HandlerThread:3052 [system_monitor.py:finish():190] Stopping system monitor
+2024-02-20 18:35:20,277 DEBUG   SystemMonitor:3052 [system_monitor.py:_start():166] Finished system metrics aggregation loop
+2024-02-20 18:35:20,279 DEBUG   SystemMonitor:3052 [system_monitor.py:_start():170] Publishing last batch of metrics
+2024-02-20 18:35:20,279 INFO    HandlerThread:3052 [interfaces.py:finish():202] Joined cpu monitor
+2024-02-20 18:35:20,279 INFO    HandlerThread:3052 [interfaces.py:finish():202] Joined disk monitor
+2024-02-20 18:35:20,318 INFO    HandlerThread:3052 [interfaces.py:finish():202] Joined gpu monitor
+2024-02-20 18:35:20,318 INFO    HandlerThread:3052 [interfaces.py:finish():202] Joined memory monitor
+2024-02-20 18:35:20,318 INFO    HandlerThread:3052 [interfaces.py:finish():202] Joined network monitor
+2024-02-20 18:35:20,318 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: defer
+2024-02-20 18:35:20,318 INFO    SenderThread:3052 [sender.py:send_request_defer():598] handle sender defer: 2
+2024-02-20 18:35:20,318 INFO    SenderThread:3052 [sender.py:transition_state():602] send defer: 3
+2024-02-20 18:35:20,318 DEBUG   SenderThread:3052 [sender.py:send():369] send: stats
+2024-02-20 18:35:20,318 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: defer
+2024-02-20 18:35:20,319 INFO    HandlerThread:3052 [handler.py:handle_request_defer():170] handle defer: 3
+2024-02-20 18:35:20,320 DEBUG   SenderThread:3052 [sender.py:send():369] send: history
+2024-02-20 18:35:20,320 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: summary_record
+2024-02-20 18:35:20,321 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-02-20 18:35:20,321 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: defer
+2024-02-20 18:35:20,321 INFO    SenderThread:3052 [sender.py:send_request_defer():598] handle sender defer: 3
+2024-02-20 18:35:20,321 INFO    SenderThread:3052 [sender.py:transition_state():602] send defer: 4
+2024-02-20 18:35:20,321 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: defer
+2024-02-20 18:35:20,321 INFO    HandlerThread:3052 [handler.py:handle_request_defer():170] handle defer: 4
+2024-02-20 18:35:20,321 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: defer
+2024-02-20 18:35:20,321 INFO    SenderThread:3052 [sender.py:send_request_defer():598] handle sender defer: 4
+2024-02-20 18:35:20,322 INFO    SenderThread:3052 [sender.py:transition_state():602] send defer: 5
+2024-02-20 18:35:20,322 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: defer
+2024-02-20 18:35:20,322 INFO    HandlerThread:3052 [handler.py:handle_request_defer():170] handle defer: 5
+2024-02-20 18:35:20,326 DEBUG   SenderThread:3052 [sender.py:send():369] send: summary
+2024-02-20 18:35:20,327 INFO    SenderThread:3052 [sender.py:_save_file():1354] saving file wandb-summary.json with policy end
+2024-02-20 18:35:20,327 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: defer
+2024-02-20 18:35:20,327 INFO    SenderThread:3052 [sender.py:send_request_defer():598] handle sender defer: 5
+2024-02-20 18:35:20,327 INFO    SenderThread:3052 [sender.py:transition_state():602] send defer: 6
+2024-02-20 18:35:20,328 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: defer
+2024-02-20 18:35:20,328 INFO    HandlerThread:3052 [handler.py:handle_request_defer():170] handle defer: 6
+2024-02-20 18:35:20,328 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: defer
+2024-02-20 18:35:20,328 INFO    SenderThread:3052 [sender.py:send_request_defer():598] handle sender defer: 6
+2024-02-20 18:35:20,330 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: status_report
+2024-02-20 18:35:20,770 INFO    SenderThread:3052 [sender.py:transition_state():602] send defer: 7
+2024-02-20 18:35:20,770 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: defer
+2024-02-20 18:35:20,770 INFO    HandlerThread:3052 [handler.py:handle_request_defer():170] handle defer: 7
+2024-02-20 18:35:20,770 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: defer
+2024-02-20 18:35:20,770 INFO    SenderThread:3052 [sender.py:send_request_defer():598] handle sender defer: 7
+2024-02-20 18:35:20,839 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\config.yaml
+2024-02-20 18:35:20,840 INFO    Thread-16 :3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\wandb-summary.json
+2024-02-20 18:35:20,850 INFO    wandb-upload_1:3052 [upload_job.py:push():133] Uploaded file C:\Users\Dyrudis\AppData\Local\Temp\tmpdfq9cpm7wandb\zq8f7nbp-media/table/curves/Recall-Confidence(B)_table_3_322d371ce8a5c8ff24f8.table.json
+2024-02-20 18:35:22,428 INFO    SenderThread:3052 [sender.py:transition_state():602] send defer: 8
+2024-02-20 18:35:22,428 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: defer
+2024-02-20 18:35:22,428 INFO    HandlerThread:3052 [handler.py:handle_request_defer():170] handle defer: 8
+2024-02-20 18:35:22,428 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: defer
+2024-02-20 18:35:22,428 INFO    SenderThread:3052 [sender.py:send_request_defer():598] handle sender defer: 8
+2024-02-20 18:35:22,428 INFO    SenderThread:3052 [job_builder.py:build():240] Attempting to build job artifact
+2024-02-20 18:35:22,429 INFO    SenderThread:3052 [job_builder.py:build():259] run is notebook based run
+2024-02-20 18:35:22,429 INFO    SenderThread:3052 [job_builder.py:build():274] no source found
+2024-02-20 18:35:22,429 INFO    SenderThread:3052 [sender.py:transition_state():602] send defer: 9
+2024-02-20 18:35:22,429 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: defer
+2024-02-20 18:35:22,429 INFO    HandlerThread:3052 [handler.py:handle_request_defer():170] handle defer: 9
+2024-02-20 18:35:22,429 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: defer
+2024-02-20 18:35:22,429 INFO    SenderThread:3052 [sender.py:send_request_defer():598] handle sender defer: 9
+2024-02-20 18:35:22,429 INFO    SenderThread:3052 [dir_watcher.py:finish():359] shutting down directory watcher
+2024-02-20 18:35:22,866 INFO    SenderThread:3052 [dir_watcher.py:_on_file_modified():289] file/dir modified: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:35:22,866 INFO    SenderThread:3052 [dir_watcher.py:finish():389] scan: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files
+2024-02-20 18:35:22,866 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\config.yaml config.yaml
+2024-02-20 18:35:22,866 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log output.log
+2024-02-20 18:35:22,867 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\requirements.txt requirements.txt
+2024-02-20 18:35:22,869 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\wandb-metadata.json wandb-metadata.json
+2024-02-20 18:35:22,869 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\wandb-summary.json wandb-summary.json
+2024-02-20 18:35:22,874 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\confusion_matrix_3_dcffd147aa7f3e463d50.png media/images/confusion_matrix_3_dcffd147aa7f3e463d50.png
+2024-02-20 18:35:22,874 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\confusion_matrix_normalized_3_a1784600204d3766443f.png media/images/confusion_matrix_normalized_3_a1784600204d3766443f.png
+2024-02-20 18:35:22,874 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\F1_curve_3_1903b5794720ac12ff0d.png media/images/F1_curve_3_1903b5794720ac12ff0d.png
+2024-02-20 18:35:22,875 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\labels_1_48af5593372975d3b87e.jpg media/images/labels_1_48af5593372975d3b87e.jpg
+2024-02-20 18:35:22,875 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\PR_curve_3_68a3eb7d875a6d0d4654.png media/images/PR_curve_3_68a3eb7d875a6d0d4654.png
+2024-02-20 18:35:22,875 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\P_curve_3_44c1fb325322b8fa03e1.png media/images/P_curve_3_44c1fb325322b8fa03e1.png
+2024-02-20 18:35:22,875 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\results_3_53e90f849e284322d7ee.png media/images/results_3_53e90f849e284322d7ee.png
+2024-02-20 18:35:22,875 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\R_curve_3_c47bef05e61b71230e56.png media/images/R_curve_3_c47bef05e61b71230e56.png
+2024-02-20 18:35:22,875 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\train_batch0_1_352799aa8a9e0b3a6978.jpg media/images/train_batch0_1_352799aa8a9e0b3a6978.jpg
+2024-02-20 18:35:22,875 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\train_batch1_1_b2b7743f350622cfbad6.jpg media/images/train_batch1_1_b2b7743f350622cfbad6.jpg
+2024-02-20 18:35:22,875 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\train_batch2_1_d27f9adb509932a5dcdc.jpg media/images/train_batch2_1_d27f9adb509932a5dcdc.jpg
+2024-02-20 18:35:22,875 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\val_batch0_labels_3_89f4f8c02ee0849076a4.jpg media/images/val_batch0_labels_3_89f4f8c02ee0849076a4.jpg
+2024-02-20 18:35:22,875 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\val_batch0_pred_3_35b9b9e5c03a9cf62b9d.jpg media/images/val_batch0_pred_3_35b9b9e5c03a9cf62b9d.jpg
+2024-02-20 18:35:22,875 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\val_batch1_labels_3_015bef7904294babd6a7.jpg media/images/val_batch1_labels_3_015bef7904294babd6a7.jpg
+2024-02-20 18:35:22,875 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\val_batch1_pred_3_77e78f29e5bc154ff8ef.jpg media/images/val_batch1_pred_3_77e78f29e5bc154ff8ef.jpg
+2024-02-20 18:35:22,876 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\val_batch2_labels_3_140b18616e9cf285df6c.jpg media/images/val_batch2_labels_3_140b18616e9cf285df6c.jpg
+2024-02-20 18:35:22,876 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\images\val_batch2_pred_3_00858d47bfb4cfb013d9.jpg media/images/val_batch2_pred_3_00858d47bfb4cfb013d9.jpg
+2024-02-20 18:35:22,876 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\table\curves\F1-Confidence(B)_table_3_65d3344758378092a2f6.table.json media/table/curves/F1-Confidence(B)_table_3_65d3344758378092a2f6.table.json
+2024-02-20 18:35:22,876 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\table\curves\Precision-Confidence(B)_table_3_6c2a8a584a0170eaf317.table.json media/table/curves/Precision-Confidence(B)_table_3_6c2a8a584a0170eaf317.table.json
+2024-02-20 18:35:22,876 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\table\curves\Precision-Recall(B)_table_3_e715b18243914f663414.table.json media/table/curves/Precision-Recall(B)_table_3_e715b18243914f663414.table.json
+2024-02-20 18:35:22,876 INFO    SenderThread:3052 [dir_watcher.py:finish():403] scan save: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\media\table\curves\Recall-Confidence(B)_table_3_322d371ce8a5c8ff24f8.table.json media/table/curves/Recall-Confidence(B)_table_3_322d371ce8a5c8ff24f8.table.json
+2024-02-20 18:35:22,876 INFO    SenderThread:3052 [sender.py:transition_state():602] send defer: 10
+2024-02-20 18:35:22,876 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: defer
+2024-02-20 18:35:22,876 INFO    HandlerThread:3052 [handler.py:handle_request_defer():170] handle defer: 10
+2024-02-20 18:35:22,877 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: defer
+2024-02-20 18:35:22,877 INFO    SenderThread:3052 [sender.py:send_request_defer():598] handle sender defer: 10
+2024-02-20 18:35:22,877 INFO    SenderThread:3052 [file_pusher.py:finish():159] shutting down file pusher
+2024-02-20 18:35:23,242 INFO    wandb-upload_2:3052 [upload_job.py:push():133] Uploaded file c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\config.yaml
+2024-02-20 18:35:23,318 INFO    wandb-upload_4:3052 [upload_job.py:push():133] Uploaded file c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\wandb-summary.json
+2024-02-20 18:35:23,320 INFO    wandb-upload_10:3052 [upload_job.py:push():133] Uploaded file c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\requirements.txt
+2024-02-20 18:35:23,323 INFO    wandb-upload_9:3052 [upload_job.py:push():133] Uploaded file c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\files\output.log
+2024-02-20 18:35:23,528 INFO    Thread-15 (_thread_body):3052 [sender.py:transition_state():602] send defer: 11
+2024-02-20 18:35:23,528 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: defer
+2024-02-20 18:35:23,528 INFO    HandlerThread:3052 [handler.py:handle_request_defer():170] handle defer: 11
+2024-02-20 18:35:23,528 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: defer
+2024-02-20 18:35:23,529 INFO    SenderThread:3052 [sender.py:send_request_defer():598] handle sender defer: 11
+2024-02-20 18:35:23,529 INFO    SenderThread:3052 [file_pusher.py:join():164] waiting for file pusher
+2024-02-20 18:35:23,529 INFO    SenderThread:3052 [sender.py:transition_state():602] send defer: 12
+2024-02-20 18:35:23,529 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: defer
+2024-02-20 18:35:23,529 INFO    HandlerThread:3052 [handler.py:handle_request_defer():170] handle defer: 12
+2024-02-20 18:35:23,529 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: defer
+2024-02-20 18:35:23,529 INFO    SenderThread:3052 [sender.py:send_request_defer():598] handle sender defer: 12
+2024-02-20 18:35:23,995 INFO    SenderThread:3052 [sender.py:transition_state():602] send defer: 13
+2024-02-20 18:35:23,996 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: defer
+2024-02-20 18:35:23,996 INFO    HandlerThread:3052 [handler.py:handle_request_defer():170] handle defer: 13
+2024-02-20 18:35:23,996 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: defer
+2024-02-20 18:35:23,996 INFO    SenderThread:3052 [sender.py:send_request_defer():598] handle sender defer: 13
+2024-02-20 18:35:23,996 INFO    SenderThread:3052 [sender.py:transition_state():602] send defer: 14
+2024-02-20 18:35:23,997 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: defer
+2024-02-20 18:35:23,997 DEBUG   SenderThread:3052 [sender.py:send():369] send: final
+2024-02-20 18:35:23,997 INFO    HandlerThread:3052 [handler.py:handle_request_defer():170] handle defer: 14
+2024-02-20 18:35:23,997 DEBUG   SenderThread:3052 [sender.py:send():369] send: footer
+2024-02-20 18:35:23,997 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: defer
+2024-02-20 18:35:23,997 INFO    SenderThread:3052 [sender.py:send_request_defer():598] handle sender defer: 14
+2024-02-20 18:35:23,997 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: poll_exit
+2024-02-20 18:35:23,997 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: server_info
+2024-02-20 18:35:23,997 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: get_summary
+2024-02-20 18:35:23,997 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: poll_exit
+2024-02-20 18:35:23,998 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: sampled_history
+2024-02-20 18:35:23,998 DEBUG   SenderThread:3052 [sender.py:send_request():396] send_request: server_info
+2024-02-20 18:35:24,134 DEBUG   HandlerThread:3052 [handler.py:handle_request():144] handle_request: shutdown
+2024-02-20 18:35:24,134 INFO    HandlerThread:3052 [handler.py:finish():854] shutting down handler
+2024-02-20 18:35:25,003 INFO    WriterThread:3052 [datastore.py:close():298] close: c:\Users\Dyrudis\Desktop\Traffic sign recognition\wandb\run-20240220_181838-rkjj4pmg\run-rkjj4pmg.wandb
+2024-02-20 18:35:25,143 INFO    SenderThread:3052 [sender.py:finish():1526] shutting down sender
+2024-02-20 18:35:25,143 INFO    SenderThread:3052 [file_pusher.py:finish():159] shutting down file pusher
+2024-02-20 18:35:25,143 INFO    SenderThread:3052 [file_pusher.py:join():164] waiting for file pusher

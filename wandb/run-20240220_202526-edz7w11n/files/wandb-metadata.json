@@ -1,0 +1,49 @@
+{
+    "os": "Windows-10-10.0.22631-SP0",
+    "python": "3.11.2",
+    "heartbeatAt": "2024-02-20T19:25:26.830091",
+    "startedAt": "2024-02-20T19:25:26.215104",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/Dyrudis/Trafic-Sign-Recognition.git",
+        "commit": "26fbb75855d1c78e61fc2194ddbd681419caf913"
+    },
+    "email": "58176532+Dyrudis@users.noreply.github.com",
+    "root": "C:/Users/Dyrudis/Documents/GitHub/Trafic-Sign-Recognition",
+    "host": "PC-de-Tanguy",
+    "username": "Dyrudis",
+    "executable": "c:\\Users\\Dyrudis\\AppData\\Local\\Programs\\Python\\Python311\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 3801.0,
+        "min": 0.0,
+        "max": 3801.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 3801.0,
+            "min": 0.0,
+            "max": 3801.0
+        }
+    ],
+    "disk": {
+        "total": 930.7539215087891,
+        "used": 805.4843902587891
+    },
+    "gpu": "NVIDIA GeForce RTX 3070",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "NVIDIA GeForce RTX 3070",
+            "memory_total": 8589934592
+        }
+    ],
+    "memory": {
+        "total": 15.927757263183594
+    }
+}
