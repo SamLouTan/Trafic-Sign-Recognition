@@ -2,7 +2,7 @@
 
 ## Prérequis
 
-Assurez-vous d'avoir un environnement Python configuré avec le package `ultranalytics` installé.
+Assurez-vous d'avoir un environnement Python configuré avec le package `ultralytics` installé.
 
 ### Installation de l'environnement Python
 1. Installez Python (version recommandée : 3.8 ou supérieure).
@@ -20,14 +20,14 @@ Assurez-vous d'avoir un environnement Python configuré avec le package `ultrana
      source env/bin/activate
      ```
 
-### Installation de `ultranalytics`
+### Installation de `ultralytics`
 1. Assurez-vous que `pip` est à jour :
    ```sh
    pip install --upgrade pip
    ```
-2. Installez `ultranalytics` :
+2. Installez `ultralytics` :
    ```sh
-   pip install ultranalytics
+   pip install ultralytics
    ```
 
 ## Utilisation
